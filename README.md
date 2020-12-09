@@ -19,7 +19,7 @@ Support input and output redirection
 Support running commands in foreground and background processes
 Implement custom handlers for 2 signals, SIGINT and SIGTSTP
 *****************************************************************************************************************************
-program 4:
+Program 4:
 
 use of threads, mutual exclusion and condition variables
 creates 4 threads to process input from standard input as follows
@@ -30,9 +30,12 @@ Thread, 3 called the Plus Sign thread, replaces every pair of plus signs, i.e., 
 Thread 4, called the Output Thread, writes this processed data to standard output as lines of exactly 80 characters.
 Furthermore, in your program these 4 threads must communicate with each other using the Producer-Consumer approach. 
 *****************************************************************************************************************************
-program 5:
+Program 5:
 
 creating five small programs that encrypt and decrypt information using a one-time pad-like system. These programs will combine 
 the multi-processing code you have been learning with socket-based inter-process communication. Your programs will also be accessible 
 from the command line using standard Unix features like input/output redirection, and job control. Finally, you will write a short
 compilation script.
+*************************************************************************************************************************************
+Program 6:
+Multi-threaded Map Reduce in Rust
